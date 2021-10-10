@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{98b5593d-6477-4e95-a744-1da920628e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{6dfa17e6-f489-480a-acb0-8c96216f968c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{8969124b-adeb-489c-bcb5-7e0b6d4335cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\base">
+      <UniqueIdentifier>{5408410c-90ae-439d-aa8d-8daac81c4307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{a90c9e2f-56b6-4472-8dc9-18e85c1408d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\anim,base,manager">
+      <UniqueIdentifier>{d6dcf2dd-a275-4fe3-8584-db35f1301c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{d4f204eb-9817-46a0-aab0-9480110fc37c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAME.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="MAP.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>scene\base</Filter>
+    </ClCompile>
+    <ClCompile Include="FADE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ANIM.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ANIMS.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARACTER.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARACTER_MANAGER.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BAT.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="BAT_BULLET.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER_BULLET.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="PUMPKIN.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="EXPLOSION.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>container</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="MAP.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="FADE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE.h">
+      <Filter>scene\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ANIM.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ANIMS.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARACTER.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARACTER_MANAGER.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BAT.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="BAT_BULLET.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER_BULLET.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="PUMPKIN.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="EXPLOSION.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map.txt">
+      <Filter>map</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
