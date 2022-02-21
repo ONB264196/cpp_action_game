@@ -5,11 +5,11 @@ class PLAYER :
 {
 public:
     struct DATA {
+        float time = 0;
         int rightAnimId = 0;
         int leftAnimId = 1;
         int jumpFlag = 0;
         float curWx = 0;
-        float initVecUp = 0;
         float initVecDown = 0;
         float gravity = 0;
         char bulletCharaId = 0;

@@ -20,6 +20,7 @@ void CONTAINER::load()
 
 void CONTAINER::CreateData()
 {
+	Data.stage.time = 120;
 	Data.stage.backColor = COLOR(255, 255, 255, 255);
 	Data.stage.gameOverColor = COLOR(255, 0, 0);
 	Data.stage.stageClearColor = COLOR(255, 255, 0);
@@ -30,31 +31,32 @@ void CONTAINER::CreateData()
 	Data.fade.color = COLOR(60, 60, 60);
 	Data.fade.speed = 255 * 2;
 
-	Data.map.fileName = "assets\\map.txt";
+	Data.map.fileName = "assets\\MAP.txt";
 	Data.map.chipSize = 50;
 	Data.map.centerX = width / 2 - Data.map.chipSize / 2;
 
 	Data.playerChara.charaId = MAP::PLAYER_ID;
 	Data.playerChara.hp = 1;
 	Data.playerChara.groupId = 0;
-	Data.playerChara.speed = 3.4f * 60;
+	Data.playerChara.speed = 4.9f * 60;
+	Data.playerChara.initVecUp = -16.0f;
 	Data.playerChara.offsetLeft = 10.0f;
 	Data.playerChara.offsetTop = 1.0f;
 	Data.playerChara.offsetRight = 40.0f;
 	Data.playerChara.offsetBottom = 49.0f;
+	Data.player.time = 120;
 	Data.player.rightAnimId = 0;
 	Data.player.leftAnimId = 1;
 	Data.player.jumpFlag = 0;
-	Data.player.initVecUp = -16.0f;
 	Data.player.initVecDown = 3.0f;
-	Data.player.gravity = 48;
+	Data.player.gravity = 49;
 	Data.player.bulletOffsetX = 20.0f;
 	Data.player.bulletCharaId = MAP::PLAYER_BULLET_ID;
 
 	Data.playerBulletChara.charaId = MAP::PLAYER_BULLET_ID;
 	Data.playerBulletChara.groupId = 0; 
 	Data.playerBulletChara.hp = 1;
-	Data.playerBulletChara.speed = 23.5f * 60;
+	Data.playerBulletChara.speed = 23.0f * 60;
 	Data.playerBulletChara.offsetLeft = 20.0f;
 	Data.playerBulletChara.offsetTop = 20.0f;
 	Data.playerBulletChara.offsetRight = 30.0f;
@@ -118,22 +120,22 @@ void CONTAINER::CreateData()
 
 	Data.charaMng.numPlayers = 1;
 	Data.charaMng.numPlayerBullets = 5;
-	Data.charaMng.numPumpkins = 5;
+	Data.charaMng.numPumpkins = 11;
 	Data.charaMng.numBats = 5;
-	Data.charaMng.numBatBullets = 12;
+	Data.charaMng.numBatBullets = 4;
 	Data.charaMng.numExplosions = 2;
 }
 
 void CONTAINER::LoadGraphics()
 {
-	Data.stage.backImg = loadImage("assets\\back_wide.png");
+	Data.stage.backImg = loadImage("assets\\îwåi.png");
 	Data.stage.stageClearImg = loadImage("assets\\StageClear.png");
 	Data.stage.gameOverImg = loadImage("assets\\GameOver.png");
 
-	Data.map.blockImg = loadImage("assets\\block.png");
+	Data.map.blockImg = loadImage("assets\\ÉuÉçÉbÉN.png");
 	Data.map.goalImg = loadImage("assets\\goal.png");
 
-	Data.playerBulletChara.img = loadImage("assets\\playerBullet.png");
+	Data.playerBulletChara.img = loadImage("assets\\íe(ÉvÉåÉCÉÑÅ[).png");
 
 	Data.batBulletChara.img = loadImage("assets\\batBullet.png");
 

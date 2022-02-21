@@ -13,7 +13,7 @@ public:
         int cols = 0;
         int rows = 0;
         int dispCols = 0;
-        int dispRows;
+        int dispRows = 0;
         float wx = 0;
         float wy = 0;
         float worldWidth = 0;

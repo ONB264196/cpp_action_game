@@ -8,6 +8,7 @@ class STAGE :
 {
 public:
     struct DATA {
+        float time = 0;
         int backImg = 0;
         int stageClearImg = 0;
         int gameOverImg = 0;

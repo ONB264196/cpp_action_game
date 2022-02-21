@@ -24,6 +24,7 @@ public:
         float vx = 0;
         float vy = 0;
         float speed = 0;
+        float initVecUp = 0;
         float angle = 0;
         float scale = 1;
 
